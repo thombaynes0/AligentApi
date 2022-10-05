@@ -26,11 +26,11 @@ Formats must be as so:
 Assumed date/time/timezone would be passed from a datetime picker of sorts in a front end UI.
 
 Libraries used:
-  -Luxon: Used for dates, made finding intervals between dates easier.
-  -Luxon-business-days: Addition for Luxon, giving the ability to check if a date is a business day.
-  -Morgan: Used for easier reading of logs
-  -Express: Used for parsing requests/responses.
-  -Typescript
-  -nodemon
-  -ts-node
+  - Luxon: Used for dates, made finding intervals between dates easier.
+  - Luxon-business-days: Addition for Luxon, giving the ability to check if a date is a business day.
+  - Morgan: Used for easier reading of logs
+  - Express: Used for parsing requests/responses.
+  - Typescript
+  - nodemon
+  - ts-node
 
