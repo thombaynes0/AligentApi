@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "a24447e2-1a36-4265-98fb-bf86bf869508",
+		"name": "dates",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21451540"
+	},
+	"item": [
+		{
+			"name": "daysbetween",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"  pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateOne\": \"2017-05-15\",\r\n    \"timeOne\": \"00:00\",\r\n    \"timeZoneOne\": \"Australia/Adelaide\",\r\n    \"dateTwo\": \"2017-05-18\",\r\n    \"timeTwo\": \"24:00\",\r\n    \"timeZoneTwo\": \"Australia/Adelaide\",\r\n    \"convertTo\": \"days\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6061/dates/daysbetween",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6061",
+					"path": [
+						"dates",
+						"daysbetween"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "completeweeksbetween",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"  pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateOne\": \"2017-05-15\",\r\n    \"timeOne\": \"00:00\",\r\n    \"timeZoneOne\": \"Australia/Adelaide\",\r\n    \"dateTwo\": \"2017-07-15\",\r\n    \"timeTwo\": \"24:00\",\r\n    \"timeZoneTwo\": \"America/New_York\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6061/dates/completeweeksbetween",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6061",
+					"path": [
+						"dates",
+						"completeweeksbetween"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "businessDaysBetween",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"  pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dateOne\": \"2022-11-07\",\r\n    \"timeZoneOne\": \"Australia/Adelaide\",\r\n    \"dateTwo\": \"2022-11-12\",\r\n    \"timeZoneTwo\": \"Australia/Adelaide\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6061/dates/businessDaysBetween",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6061",
+					"path": [
+						"dates",
+						"businessDaysBetween"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
