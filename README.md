@@ -12,7 +12,8 @@ http://localhost:6061/dates/completeweeksbetween
 http://localhost:6061/dates/businessDaysBetween
 
 Postman Tests:
-I've provided the Postman requests in the 'Postman Requests' folder which provide a body with the required
+I've provided the Postman requests (in 'Postman Requests' folder
+OR here https://www.getpostman.com/collections/19bd2e40c8e3c9059b7d) which provide a body with the required
 parameters for each API call.
 To import the requests, open postman, open a workspace and press the import button up the top left.
 
