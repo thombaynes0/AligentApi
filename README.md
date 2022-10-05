@@ -1,9 +1,10 @@
 # Aligent Api task by Thomas Baynes
 
 How to run code:
-1. Start VSCode
-2. Open the terminal and type: npm run dev
-3. You can either go to postman and run the http requests i've provided, or you can go to the urls below
+1. Start VSCode.
+2. Open the AligentApi folder.
+3. Open the terminal and type: npm run dev
+4. You can either go to postman and run the http requests i've provided, or you can go to the urls below
 and look in google chrome developer tools and see the network responses.
 
 URLS:
