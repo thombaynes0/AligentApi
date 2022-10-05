@@ -7,9 +7,9 @@ How to run code:
 and look in google chrome developer tools and see the network responses.
 
 URLS:
-http://localhost:6061/dates/daysbetween
-http://localhost:6061/dates/completeweeksbetween
-http://localhost:6061/dates/businessDaysBetween
+- http://localhost:6061/dates/daysbetween
+- http://localhost:6061/dates/completeweeksbetween
+- http://localhost:6061/dates/businessDaysBetween
 
 Postman Tests:
 I've provided the Postman requests (in 'Postman Requests' folder
